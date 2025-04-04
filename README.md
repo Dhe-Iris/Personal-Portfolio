@@ -59,11 +59,11 @@ To run this project locally:
 
 1. **Clone or download** the repository:
    ```bash
-   git clone https://github.com/yourusername/iris-portfolio
+   git clone https://github.com/yourusername/Personal-Portfolio
    ```
 2. Open the `index.html` file in your browser to view the website.
 
-The app is also hosted on Netlify—view it live [#].
+The app is also hosted on Netlify—view it live [https://iris-personal-portfolio.netlify.app/].
 
 ## How It Works
 
