@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iris Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/198c82f26a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo.png" alt="logo" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+        <div class="header-text">
+          <p>Web Developer</p>
+          <h1>
+            Hi, I'm <span>Iris</span> <br />
+            From Nigeria
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- ----------About Page---------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/about image.jpg" alt="about me image" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="subtitle">About Me</h1>
+            <p>
+              I’m a versatile creative and tech enthusiast with a strong
+              foundation in frontend development, currently expanding my skills
+              to become a full stack developer. I also work as a Virtual
+              Assistant, bringing structure and efficiency to every task. In
+              addition, I’m a Social Media Manager with a knack for creating
+              engaging content and growing online communities.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Web Development</span> <br />
+                  HTML,CSS,JavaScript, Python, mySQL
+                </li>
+
+                <li>
+                  <span>Virtual Assistant</span> <br />
+                  Administrative Roles
+                </li>
+                <li>
+                  <span>Social Media Manager</span> <br />
+                  Content creation, engagement strategies and brand growth
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>Feb,2025</span> <br />
+                  PLP Web Development
+                </li>
+                <li>
+                  <span>Jan,2025</span> <br />
+                  Frontend Development cert From SheCodes
+                </li>
+                <li>
+                  <span>Aug,2024</span> <br />
+                  Virtual Assistant Cert From ALX
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ------------Services Page---------- -->
+    <div id="services">
+      <div class="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>
+              Proficient in HTML, CSS, Tailwind, Bootstrap, Javascript, Python,
+              and MySQL, i build responsive and dynamic websites with clean,
+              user-friendly interfaces. Currently Expanding my expertise to
+              become a full stack developer
+            </p>
+            <a href="https://wa.me/message/CGJRE5A2SRVDI1" target="_blank"
+              >Learn More</a
+            >
+          </div>
+
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>Virtual Assistance</h2>
+            <p>
+              I provide comprehensive support by managing emails, handling
+              customer inquiries, scheduling tasks, and organizing workflows. I
+              also assist with social media management, research, data entry,
+              and automation to improve efficiency and productivity.
+            </p>
+            <a href="https://wa.me/message/CGJRE5A2SRVDI1" target="_blank"
+              >Learn More</a
+            >
+          </div>
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>Social Media Management</h2>
+            <p>
+              I help brands grow their online presence by creating engaging
+              content, managing social media accounts, and interacting with
+              audiences. I also analyze insights, schedule posts, and develop
+              strategies to boost visibility and engagement.
+            </p>
+            <a href="https://wa.me/message/CGJRE5A2SRVDI1" target="_blank"
+              >Learn More</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------Portfolio page --------- -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/weather.jpg" alt="work 1 image" />
+            <div class="layer">
+              <h3>Weather Forecast Web App</h3>
+              <p>
+                A beautiful, simple and responsive Weather App that provides
+                real-time weather information and a 5-day forecast for any city.
+                Designed with both aesthetics and functionality in mind, it
+                ensures a seamless experience across desktop and mobile devices.
+              </p>
+              <a
+                href="https://iris-weatherforecast.netlify.app/"
+                target="_blank"
+                ><i class="fa-solid fa-link"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/color game.jpg" alt="work 2 image" />
+            <div class="layer">
+              <h3>Color Game</h3>
+              <p>
+                A color-matching game to challenge players' ability to recognize
+                and match colors accurately.The game measures how well players
+                can distinguish between subtle color differences, offering
+                levels of difficulty based on how challenging the color shades
+                are.
+              </p>
+              <a href="https://iris-color-game.netlify.app/" target="_blank"
+                ><i class="fa-solid fa-link"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/world clock.jpg" alt="work 3 image" />
+            <div class="layer">
+              <h3>World Clock Web App</h3>
+              <p>
+                WORK IN PROGRESS......... <br />
+                A World Clock web app that displays the current time in multiple
+                cities around the world. Users can easily view and compare time
+                across different time zones, making it perfect for coordinating
+                meetings or keeping track of global events.
+              </p>
+              <a href="https://github.com/Dhe-Iris" target="_blank"
+                ><i class="fa-solid fa-link"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="https://github.com/Dhe-Iris" target="_blank" class="btn"
+          >See more</a
+        >
+      </div>
+    </div>
+
+    <!-- --------Contact Page------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="subtitle">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>Dolapog44@gmail.com</p>
+            <p><i class="fa-solid fa-phone-volume"></i>+2348135324041</p>
+            <div class="social-icons">
+              <a href="https://wa.me/message/CGJRE5A2SRVDI1" target="_blank"
+                ><i class="fa-brands fa-whatsapp"></i
+              ></a>
+              <a
+                href="https://www.tiktok.com/@the_lady_developer?_t=ZM-8vEhDPllQZB&_r=1"
+                target="_blank"
+                ><i class="fa-brands fa-tiktok"></i
+              ></a>
+              <a href="https://linkedin.com/in/dolapokolade22" target="_blank"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+            </div>
+            <a href="images/my CV.pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Email Address"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Please type your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          This website was designed by IRIS
+          <i class="fa-solid fa-hand-holding-heart"></i>
+        </p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
