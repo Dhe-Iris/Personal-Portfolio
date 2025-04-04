@@ -38,16 +38,19 @@ This website showcases my skills, services, and portfolio, providing a glimpse i
 /Project
 │
 ├── /images
+│   └── about image.jpg        # Image for the About Me section       
+│   └── bg.jpg                 # Hero background image for web
+│   └── color game.jpg         # Portfolio image for Color Game project
 │   └── logo.png               # My personal logo
-│   └── about image.jpg        # Image for the About Me section
-│   └── weather.jpg            # Portfolio image for Weather App
-│   └── color game.jpg         # Portfolio image for Color Game
-│   └── world clock.jpg        # Portfolio image for World Clock (WIP)
+│   └── my CV.pdf              # My Resume
+│   └── phone-bg.jpg           # Hero background image for mobile
+│   └── weather.jpg            # Portfolio image for weather project
+│   └── world clock.jpg        # Portfolio image for World Clock project(WIP)
 │
 ├── index.html                 # Main HTML file for the website
-├── styles.css                 # CSS file for styling
+├── README.md                  # This file
 ├── script.js                  # JavaScript for interactive elements
-└── README.md                  # This file
+└── styles.css                 # CSS file for styling                
 ```
 
 ## Installation
@@ -56,17 +59,17 @@ To run this project locally:
 
 1. **Clone or download** the repository:
    ```bash
-   git clone https://github.com/yourusername/iris-portfolio.git
+   git clone https://github.com/yourusername/iris-portfolio
    ```
 2. Open the `index.html` file in your browser to view the website.
 
-For online hosting, you can upload the files to GitHub Pages, Netlify, or any hosting platform of your choice.
+The app is also hosted on Netlify—view it live [#].
 
 ## How It Works
 
 ### Navigation and Smooth Scroll
 
-- The navigation bar stays at the top of the page. Clicking on a menu item smoothly scrolls to the corresponding section using JavaScript.
+- Clicking on a menu item smoothly scrolls to the corresponding section using JavaScript.
 
 ### Responsive Design
 
